@@ -1,0 +1,7 @@
+{
+  "name": "Tech-Media-Designs",
+  "short_name": "Tech-Media-Designs",
+  "description": "Tech Media Designs apps and services",
+  "start_url": "/",
+  "display": "standalone"
+}

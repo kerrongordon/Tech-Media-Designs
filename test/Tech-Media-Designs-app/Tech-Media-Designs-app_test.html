@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>Tech-Media-Designs-app test</title>
+
+    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../../src/Tech-Media-Designs-app/Tech-Media-Designs-app.html">
+  </head>
+  <body>
+    <test-fixture id="basic">
+      <template>
+        <Tech-Media-Designs-app></Tech-Media-Designs-app>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('Tech-Media-Designs-app', function() {
+        test('instantiating the element works', function() {
+          var element = fixture('basic');
+          assert.equal(element.is, 'Tech-Media-Designs-app');
+        });
+      });
+    </script>
+  </body>
+</html>
